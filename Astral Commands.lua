@@ -9,7 +9,10 @@ PREFIX = Settings.PREFIX
 --modt = loadstring(game:HttpGet("https://raw.githubusercontent.com/hairlinebrockeb/Astral-Click/main/A.lua"))()
 print('Loaded')
 ConsoleName = 'Astral Scripts by Unbound and Investor'
+UpdateName = 'Version'
+UpdateVersion = 1
 HasSYN = false
+print(UpdateName..' '..UpdateVersion)
 if (rconsolename) then
     HasSYN = true
 end
