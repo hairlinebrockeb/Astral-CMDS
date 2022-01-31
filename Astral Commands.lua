@@ -26,6 +26,7 @@ if (normalkey) or (adminkey) then
     else
         plr:Kick('wheres the normal key?')
 end
+warn('wrong key or not verified.')
 if keyusing ~= 'admin' or keyusing ~= 'normal' then return end
 print(UpdateName..' '..UpdateVersion)
 if (rconsolename) then
